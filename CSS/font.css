@@ -1,0 +1,41 @@
+.date {
+    color:gray;
+    margin:0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    text-align:center;
+    text-decoration:underline;
+}
+
+.subscribe {
+    font-size:20px;
+    color:gray;
+    margin-left:30px;
+    text-align:center;
+}
+
+.title {
+    font-size: 2.0vw;
+}
+
+.topic {
+    margin-top:1%;
+    font-size:15px;
+    line-height: 5px;
+}
+
+#world {
+    color:Blue;
+}
+
+#design {
+    color:greenyellow;
+}
+
+.subject-title {
+    font-size:1.8vw;
+    line-height: 5px;
+}
+

@@ -1,0 +1,20 @@
+
+
+.flexbox-header {
+    display:flex;
+    width:80%;
+    margin:auto;
+}
+
+.headerbox {
+    width:30%;
+    /* background-color:blue; */
+    padding:1%;
+    margin:auto;
+}
+
+.icon {
+ height:10%;
+ width:10%;
+ padding-left:50%;
+}
