@@ -10,7 +10,6 @@
     grid-auto-rows: minmax(100px, auto);
     margin-left: 20%;
     margin-right: 20%;
-
 }
 
 .inner-box {
@@ -96,4 +95,23 @@ footer {
 
 span {
     color:blue;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:25px;
+        grid-auto-rows: minmax(150px, auto);
+        margin-left: 7.5%;
+        margin-right:7.5%;
+    }
+    .articleLink {
+        padding-top:33%;
+    }
+    
+    .articleLink2 {
+        padding-top:7%;
+    }
 }

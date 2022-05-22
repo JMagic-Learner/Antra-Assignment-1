@@ -14,7 +14,13 @@
 }
 
 .icon {
- height:10%;
- width:10%;
+ height:30px;
+ width:30px;
  padding-left:50%;
+}
+
+.subscribe {
+    font-size: 3.0vh;
+    color:gray;
+    text-align:center;
 }
