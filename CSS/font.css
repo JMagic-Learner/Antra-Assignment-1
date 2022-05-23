@@ -7,7 +7,7 @@
 .title {
     text-align:center;
     text-decoration:underline;
-    font-size: 4.0vw;
+    font-size: 3.75vw;
 }
 
 .topic {
@@ -27,34 +27,54 @@
 .subject-title {
     font-size:1.8vw;
     line-height: 5px;
+    text-align:left;
 }
 
 .italics {
     font-style: italic;
     font-size:3.5vh;
+    text-align:left;
 }
 
 li {
     font-size:1.8vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:left;
 }
 
-p {
-    font-size:2.0vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.article-context {
+    font-size:1.5vh;
+    text-align:left;
 }
 
 .older-button {
-    color:lightblue;
+    color:blue;
+    text-decoration: none;
 }
 .newer-button {
-    color:lightgreen;
+    color:darkgrey;
+    text-decoration: none;
 }
 
 h1,h2,h3 {
     line-height: 5px;
 }
 
-a {
-    color:blue;
+/* .blogtitle-main {
+    font-size:3.0vh;
+}
+
+.blogtitle-secondary {
+    font-size:2.0vh;
+} */
+
+
+@media only screen and (max-width:950px) {
+    .blogtitle-main {
+        font-size:15px;
+    }
+    .subject-title {
+        font-size:15px;
+        line-height: 5px;
+    }
 }

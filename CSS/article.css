@@ -32,12 +32,12 @@
 
 .outline {
     border-style: solid;
-    border-color: lightgray;
+    border-color: #eaeaea;
     border-radius: 1%;
 }
 
 .column2-upper{
-    background-color: lightgray;
+    background-color: #eaeaea;
     width:85%;
     padding:5%;
 }
@@ -54,27 +54,39 @@
 }
 
 .older {
-    width:15%;
+    width:150px;
     height:30%;
     /* background-color:blue; */
     padding:1%; 
     border-style: solid;
-    border-color: lightblue;
+    border-color: blue;
+    text-align:center;
     border-radius: 15px;
+    text-decoration: none;
     
 }
 .newer {
     height:45%;
-    width:15%;
+    width:150px;
     /* background-color:blue; */
     padding:1%;
     border-style: solid;
-    border-color: lightgreen;
+    border-color: darkgrey;
+    text-align:center;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 
 @media only screen and (max-width: 600px) {
+    .blog-container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+        grid-auto-rows: minmax(150px, auto);
+        margin-left: 1.5%;
+        margin-right:1.5%;
+    }
     .article-column1 {
         display: "grid";
         overflow: hidden;
